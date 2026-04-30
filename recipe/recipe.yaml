@@ -1,6 +1,6 @@
 context:
-  version: 0.1.4
-  build_number: "0"
+  version: "0.1.5"
+  build_number: 0
   python_min: "3.11"
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/t/textual-diff-view/textual_diff_view-${{ version }}.tar.gz
-    sha256: f0ad09195239a0061207e0d4790efeff593353c5b9c9318e9fd5eeb209cfefc6
+    sha256: e28151c45d4207fb7b50b57fce2bc249e880c2a496b21bf7d8560a92e59caecb
 
 build:
   number: ${{ build_number }}
